@@ -1,0 +1,65 @@
+var textJSON = `{
+   "gallery": {
+		"topicTitle": "Ferens Art Gallery",
+		"header": "The story of Ferens Art Gallery",
+		"questions": [
+			"How was art displayed before the Ferens?",
+			"How long did it take to build?",
+			"Where did the money come from?"
+		],
+		"answerImages": [
+			"images\/hull_city_hall_600.png",
+			"images\/early_ferens_600.png",
+			"images\/bag_blue_600.png"
+		],
+		"answers": [
+			"Before the Ferens was built, Hull Corporation housed its art collection in a suite of rooms in the City Hall, shown above. Some of this collection had been donated by philanthropist T R Ferens. When the collection grew too large for the rooms, Ferens decided that it needed a purpose-built gallery.",
+			"The land, the site of an unused church, that was to be the site of the gallery was given to the city in XXXX. A competition was held to design the gallery and this was won by architects S.N. Cooke and E.C. Davies. Construction began in 1924 and the gallery was completed in 1927.",
+			"Philanthropist TR Ferens donated the land and gave the money for the gallery's construction. He made his money by rising, from clerk, to become the managing director of Reckitt and Sons, a manufacturer of household goods."
+		],
+		"topicImageUrl": "images\/ferens_gallery_600.png",
+		"topicInfo": "The Ferens Art Gallery was opened in 1927. In 1991 it was restored and extended. As part of the Hull 2017 UK City of Culture project it underwent a 4.5 million pound refurbishment.The Ferens has a magnificent collection of paintings and sculptures, including works by European Old Masters, portraiture, marine painting, and modern and contemporary British art."
+	},
+	"ferens": {
+		"topicTitle": "Thomas R Ferens",
+		"header": "Thomas Robinson Ferens",
+		"questions": [
+			"Who was Ferens?",
+			"How does blue make gold?",
+			"Why did he give away his fortune?"
+		],
+		"answerImages": [
+			"images\/tr_ferens_bw_600.png",
+			"images\/reckitts_blue_600.jpg",
+			"images\/night_school_600.jpg"
+		],
+		"answers": [
+			"T R Ferens was an industrialist and a philanthropist. Born on the 4th of May, 1847 in East Thickley, he moved to Hull in 1868 to take up a post as shorthand clerk to James Reckitt of Reckitt and Sons.",
+			"During his time with Reckitt and Sons, Ferens rose through the ranks, becoming managing directory in 1889. In the 1890s the company expanded rapidly. One of it\'s popular products was a laundry blue, used to prevent white laundry from yellowing, and its success led to the local saying that \'Reckitt\'s Blue made Ferens\' gold\'.",
+			"Ferens had a strong work ethic and rose to the top of Reckitt and Sons. His Methodist upbringing was one of the reasons he used the wealth he accumulated for the benefit of others. He loved art and believed art could change lives so he bought art for the city and donated the money for this gallery."
+		],
+		"topicImageUrl": "images\/tr_ferens_400.jpg",
+		"topicInfo": "A painting of Hull industrialist and philanthropist, TR Ferens."
+   },
+	"hull": {
+		"topicTitle": "TR Ferens and Hull",
+		"header": "TR Ferens and Hull",
+		"questions": [
+			"Do you know the street named in honour of Ferens?",
+			"How has Ferens supported learning in Hull?",
+			"How does the Ferens legacy live on?"
+		],
+		"answerImages": [
+			"images\/ferensway_600.jpg",
+			"images\/university_of_hull_600.jpg",
+			"images\/east_park_600.png"
+		],
+		"answers": [
+			"If you're local, you probably do and will have been down it many times. It\'s Ferensway, here in the city centre. The road, running past the railway station, was opened in 1931 with a pageant held to mark the opening.",
+			"Ferens largest single donation to the city was 250,000 pounds towards the funding of the Hull\'s University College, now the University of Hull. He also gave the land that would be the site of the University on Cottingham Road.",
+			"People today still benefit from Ferens\' legacy. In addition to the Art Gallery and University mentioned elsewhere, Ferens also gave land for the city's East Park and donated money for the building of the park's boating lake. Situated close to the park, twelve almshouse, the Ferens Rest Homes, were also funded by TR Ferens."
+		],
+		"topicInfo": "Despite not being born in Hull, Ferens worked in Hull for many years and made his home here. He frequently donated to charity and, later in life, gave huge sums to fund projects in Hull.",
+		"topicImageUrl": "images\/ferens_gallery_600.png"
+	}
+}`;
