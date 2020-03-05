@@ -5,3 +5,70 @@ html, body {
 	font-family: Arial, Helvetica, sans-serif;
 	background-color: white;
 }
+
+div {    
+    float: left;	
+}
+
+#mainMenu {
+    width:20%;
+    height: 100%;
+	font-size: 40px;
+	border-right: 2px solid black;
+}
+
+/* -------- Topics  --------- */
+.topics {
+	height: 30%;
+	/*width: 80%; Setting this to 100% caused it to overlap with the questions div*/ 
+	padding-left: 16pt;
+	padding-right: 8pt;
+	
+}
+
+/* -------- Questions  --------- */
+
+#questions {
+	width:25%;
+	height: 100%;	
+	font-size: 32px;
+	padding-left: 4pt;
+	border-right: 2px solid black;
+}
+
+p#questionsHeader {	
+	padding-left: 4pt;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+p#questionsTapBelow{
+	padding-left: 4pt;
+	font-size: 22px;
+	color: #555555;
+}
+.question {
+	padding-left: 16pt;
+	padding-top: 16pt;
+}
+
+
+/* ------- Info div ------- */
+
+#info {
+	width: 50%;
+	height: 100%;
+}
+#infoImage {	
+	display: block;
+	padding-top: 20px; 
+	padding-left: 80px;
+}
+#answer{
+	padding: 8px;
+	padding-left: 16pt;
+	font-size: 24px;
+}
+
+
+		

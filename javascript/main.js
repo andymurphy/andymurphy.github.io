@@ -141,9 +141,11 @@ function makeCurrentTopicBold(){
 		if (topics[i] == topic){
 			var currentTopicText = document.getElementById(topic);				
 			currentTopicText.style.fontWeight = "bold";
+			currentTopicText.style.color = selectedColour;
 		} else {
 			var topicText = document.getElementById(topics[i]);			
 			topicText.style.fontWeight = "normal";
+			topicText.style.color = unselectedColour;
 		}
 	}
 };
@@ -153,9 +155,11 @@ function makeCurrentQuestionBold(){
 		if(question == i + 1){
 			var currentQuestionText = document.getElementById("question" + question.toString());
 			currentQuestionText.style.fontWeight = "bold";
+			currentQuestionText.style.color = selectedColour;
 		} else {
 			var questionText = document.getElementById("question" + (i + 1).toString());
 			questionText.style.fontWeight = "normal";
+			questionText.style.color = unselectedColour;
 		}
 	}
 };
@@ -180,7 +184,9 @@ function logScreenDimensions(){
 	screenWidth =  document.body.clientWidth; //window.innerWidth || document.documentElement.clientWidth
 	screenHeight = window.innerHeight|| document.documentElement.clientHeight|| document.body.clientHeight;
 	console.log("Screen is " + screenWidth.toString() + " x " + screenHeight.toString());
-	
+	var infoDiv = document.getElementById("info");
+	var width = infoDiv.clientWidth;
+	console.log("Info div width is " + width.toString());
 }
 
 // I wonder about using objects to represent the topics.
@@ -191,6 +197,8 @@ var topics = ["gallery", "ferens", "hull"]; // The possible topics
 var question = 0; // The current question
 var questions = [1,2,3]; // The possible questions
 var textObj; // Stores the text as a JSON
+var selectedColour = "darkGoldenrod";
+var unselectedColour = "white";
 
 var screenWidth;
 var screenHeight;

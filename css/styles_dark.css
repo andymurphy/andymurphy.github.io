@@ -1,15 +1,14 @@
 html, body {
     height: 100%;
 	width: 100%;
-    margin: 0;	
+    margin: 0px;	
 	font-family: Arial, Helvetica, sans-serif;
 	background-color: #252537; /* A kind of dark gray */
 	color: white;
 }
 
 div {    
-    float: left;
-	
+    float: left;	
 }
 
 #mainMenu {
@@ -21,8 +20,7 @@ div {
 
 /* -------- Topics  --------- */
 .topics {
-	height: 33%;
-	/*width: 80%; Setting this to 100% caused it to overlap with the questions div*/ 
+	height: 33%;	 
 	padding-left: 16pt;
 	padding-right: 8pt;
 }
@@ -64,7 +62,7 @@ p#questionsTapBelow{
 #infoImage {	
 	display: block;
 	padding-top: 20px; 
-	padding-left: 60px;
+	padding-left: 80px;
 }
 #answer{
 	padding: 8px;
