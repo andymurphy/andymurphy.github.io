@@ -4,6 +4,7 @@ html, body {
     margin: 0;	
 	font-family: Arial, Helvetica, sans-serif;
 	background-color: white;
+	overflow: hidden;
 }
 
 div {    
@@ -65,8 +66,9 @@ p#questionsTapBelow{
 	padding-left: 80px;
 }
 #answer{
-	padding: 8px;
-	padding-left: 16pt;
+	display: block;
+	padding-top: 8px;
+	padding-left: 24px;
 	font-size: 24px;
 }
 
