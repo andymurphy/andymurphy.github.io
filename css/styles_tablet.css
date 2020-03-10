@@ -61,12 +61,13 @@ div {
 	height: 100%;
 }
 #infoImage {
-	width:600px;
+	width:100%;
 	display: block;
 	padding-top: 20px; 
 	padding-left: 80px;
 }
 #answerDiv{
+	width:100%;
 	display: block;	
 }
 #answer {
