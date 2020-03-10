@@ -4,7 +4,8 @@ html, body {
     margin: 0px;	
 	font-family: Arial, Helvetica, sans-serif;
 	background-color: white;
-	overflow: hidden;
+	color:black;
+	/*overflow: hidden;*/
 }
 
 div {    
@@ -22,9 +23,8 @@ div {
 .topics {
 	height: 30%;
 	/*width: 80%; Setting this to 100% caused it to overlap with the questions div*/ 
-	padding-left: 16pt;
-	padding-right: 8pt;
-	
+	padding-left: 16px;
+	padding-right: 8px;	
 }
 
 /* -------- Questions  --------- */
@@ -33,24 +33,25 @@ div {
 	width:25%;
 	height: 100%;	
 	font-size: 32px;
-	padding-left: 4pt;
+	padding-left: 4px;
 	border-right: 2px solid black;
 }
 
 #questionsHeader {	
-	padding-left: 4pt;
+	padding-left: 4px;
 	font-size: 40px;
 	font-weight: bold;
 }
 
 #questionsTapBelow{
-	padding-left: 4pt;
+	padding-left: 4px;
 	font-size: 22px;
 	color: #555555;
 }
 .question {
-	padding-left: 16pt;
-	padding-top: 16pt;
+	padding-left: 16px;
+	padding-right: 4px;
+	padding-top: 16px;
 }
 
 
