@@ -62,8 +62,9 @@ div {
 }
 #infoImage {
 	display: block;
+	margin: 0 auto;
 	padding-top: 20px; 
-	padding-left: 80px;
+	/*padding-left: 80px;*/
 }
 #answer{
 	display: block;
