@@ -13,7 +13,7 @@ if(window.addEventListener)
 
 // Sets the text for the topic titles
 function setTopicTitles(){
-	console.log("Setting topic titles.");
+	//console.log("Setting topic titles.");
 	for (var i = 0; i < topics.length; i = i + 1){
 		var topicTitle = document.getElementById(topics[i]);
 		topicTitle.innerText = textObj[topics[i]].topicTitle;
@@ -22,7 +22,7 @@ function setTopicTitles(){
 
 // Sets the text for the header which appears above the text of the questions
 function setQuestionsHeader(){
-	console.log("Setting questions header for " + topic);
+	//console.log("Setting questions header for " + topic);
 	var header = document.getElementById("questionsHeader");
 	header.innerText = textObj[topic].header;
 	header.style.fontWeight = "bold";
@@ -30,7 +30,7 @@ function setQuestionsHeader(){
 
 // Sets the text for the questions in the questions div
 function setQuestions(){
-	console.log("Setting questions for " + topic);
+	//console.log("Setting questions for " + topic);
 	for(var i = 0; i < topics.length; i = i + 1){
 		var elementId = "question" + (i + 1).toString(); // create the string needed to get the question element by its ID
 		var question = document.getElementById(elementId);
@@ -40,16 +40,15 @@ function setQuestions(){
 
 // Sets the topic text for the selected topic
 function setTopicText(){
-	console.log("Setting topic text for " + topic);
+	//console.log("Setting topic text for " + topic);
 	var answer = document.getElementById("answer");
 	answer.innerText = textObj[topic].topicInfo;
 };
 // Sets the image for the current topic
 function setTopicImage(){	
-	console.log("Setting topic image for " + topic);
+	//console.log("Setting topic image for " + topic);
 	var infoImageDiv = document.getElementById("infoImage");
-	infoImageDiv.src = textObj[topic].topicImageUrl;		
-	centreImage();
+	infoImageDiv.src = textObj[topic].topicImageUrl;	
 };
 
 // Sets the answer image when a question is selected
