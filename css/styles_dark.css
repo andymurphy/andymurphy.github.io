@@ -59,10 +59,10 @@ div {
 #info {
 	width: 50%;
 	height: 100%;
+	margin: 0 auto;
 }
 #infoImage {
-	display: block;
-	margin: 0 auto;
+	display: block;	
 	padding-top: 20px; 
 	/*padding-left: 80px;*/
 }
