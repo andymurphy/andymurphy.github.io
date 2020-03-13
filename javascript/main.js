@@ -49,9 +49,7 @@ function setTopicImage(){
 	console.log("Setting topic image for " + topic);
 	var infoImageDiv = document.getElementById("infoImage");
 	infoImageDiv.src = textObj[topic].topicImageUrl;		
-	// TODO I might want to set the image width here.
-	// Only set the image width if the width of the img tag is less than what it would be if it was on a Raspberry Pi at 1920x1080 (HD)
-	// Then I can look to see if the width of this is less than 960 and, if it is, scale the wisth of the image to be the same as the img tag (allowing for the padding and maybe margin as well)
+	centreImage();
 };
 
 // Sets the answer image when a question is selected
@@ -67,6 +65,18 @@ function setAnswerImage(){
 	var imageWidthToFitScreen = (screenWidth / 2);
 	console.log(imageWidthToFitScreen);
 	answerImage.src = textObj[topic]["answerImages"][question - 1];
+	
+};
+
+// Sets the padding of the image to centre it
+function centreImage(){	
+	document.getElementById("infoImage").style.paddingLeft = "0px";
+	var infoDivWidth = document.getElementById("info").clientWidth;
+	console.log("Info div width is " + infoDivWidth.toString());	
+	var imageWidth = document.getElementById("infoImage").clientWidth;
+	console.log("Image  width is " + imageWidth.toString());	
+	var paddingNeeded =  Math.floor((infoDivWidth - imageWidth) / 2);
+	document.getElementById("infoImage").style.paddingLeft = paddingNeeded.toString() + "px";
 };
 
 // Adds the event handlers for the topics and questions
@@ -184,9 +194,6 @@ function logScreenDimensions(){
 	screenWidth =  document.body.clientWidth; //window.innerWidth || document.documentElement.clientWidth
 	screenHeight = window.innerHeight|| document.documentElement.clientHeight|| document.body.clientHeight;
 	console.log("Screen is " + screenWidth.toString() + " x " + screenHeight.toString());
-	var infoDiv = document.getElementById("info");
-	var width = infoDiv.clientWidth;
-	console.log("Info div width is " + width.toString());
 }
 
 // I wonder about using objects to represent the topics.
