@@ -39,7 +39,7 @@ var textJSON = `{
 			"Ferens had a strong work ethic and rose to the top of Reckitt and Sons. His Methodist upbringing was one of the reasons he used the wealth he accumulated for the benefit of others. He loved art and believed art could change lives so he bought art for the city and donated the money for this gallery."
 		],
 		"topicImageUrl": "images\/tr_ferens_400.jpg",
-		"topicInfo": "A painting of Hull industrialist and philanthropist, TR Ferens."
+		"topicInfo": "This portrait of Hull industrialist and philanthropist TR Ferens was painted by Frank Dicksee."
    },
 	"hull": {
 		"topicTitle": "TR Ferens and Hull",
@@ -56,7 +56,7 @@ var textJSON = `{
 		],
 		"answers": [
 			"If you're local, you probably do and will have been down it many times. It\'s Ferensway, here in the city centre. The road, running past the railway station, was opened in 1931 with a pageant held to mark the opening.",
-			"Ferens largest single donation to the city was 250,000 pounds towards the funding of the Hull\'s University College, now the University of Hull. He also gave the land that would be the site of the University on Cottingham Road.",
+			"Ferens largest single donation to the city was \u00a3250,000 pounds towards the funding of the Hull\'s University College, now the University of Hull. He also gave the land that would be the site of the University on Cottingham Road.",
 			"People today still benefit from Ferens\' legacy. In addition to the Art Gallery and University mentioned elsewhere, Ferens also gave land for the city's East Park and donated money for the building of the park's boating lake. Situated close to the park, twelve almshouse, the Ferens Rest Homes, were also funded by TR Ferens."
 		],
 		"topicInfo": "Despite not being born in Hull, Ferens worked in Hull for many years and made his home here. He frequently donated to charity and, later in life, gave huge sums to fund projects in Hull.",
