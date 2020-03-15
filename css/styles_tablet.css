@@ -15,7 +15,7 @@ div {
 #mainMenu {
     width:20%;
     height: 100%;
-	font-size: 40px;
+	font-size: 36px;
 	border-right: 2px solid gray;
 }
 
@@ -61,7 +61,7 @@ div {
 	height: 100%;
 }
 #infoImage {
-	width:80%;
+	width:85%;
 	display: block;
 	padding-top: 20px; 
 	padding-left: 40px;
@@ -74,7 +74,7 @@ div {
 #answer {
 	padding-top: 8px;
 	padding-left: 24px;
-	font-size: 18px;
+	font-size: 22px;
 }
 
 
