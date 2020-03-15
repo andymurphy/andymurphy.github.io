@@ -65,6 +65,7 @@ div {
 	display: block;
 	padding-top: 20px; 
 	padding-left: 40px;
+	padding-right:40px;
 }
 #answerDiv{
 	width:100%;
