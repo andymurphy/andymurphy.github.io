@@ -1,4 +1,4 @@
-// check to see if the browser supports
+// Check to see if the browser supports
 // the addEventListener function
 if(window.addEventListener)
 {
@@ -60,22 +60,7 @@ function setAnswerText(){
 // Sets the answer text when a question is selected
 function setAnswerImage(){
 	var answerImage = document.getElementById("infoImage");	
-	// TODO I might want to set the image width here
-	var imageWidthToFitScreen = (screenWidth / 2);
-	console.log(imageWidthToFitScreen);
-	answerImage.src = textObj[topic]["answerImages"][question - 1];
-	
-};
-
-// Sets the padding of the image to centre it
-function centreImage(){	
-	document.getElementById("infoImage").style.paddingLeft = "0px";
-	var infoDivWidth = document.getElementById("info").clientWidth;
-	console.log("Info div width is " + infoDivWidth.toString());	
-	var imageWidth = document.getElementById("infoImage").clientWidth;
-	console.log("Image  width is " + imageWidth.toString());	
-	var paddingNeeded =  Math.floor((infoDivWidth - imageWidth) / 2);
-	document.getElementById("infoImage").style.paddingLeft = paddingNeeded.toString() + "px";
+	answerImage.src = textObj[topic]["answerImages"][question - 1];	
 };
 
 // Adds the event handlers for the topics and questions
