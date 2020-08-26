@@ -18,7 +18,7 @@ var textJSON = `{
 			"As mentioned above, philanthropist TR Ferens donated the land and gave the money for the gallery's construction. He made his money by rising from confidential shorthand clerk to become the managing director of Reckitt and Sons, a manufacturer of household goods."
 		],
 		"topicImageUrl": "images\/ferens_gallery_600.png",
-		"topicInfo": "The building you are in, the Ferens Art Gallery, was opened in 1927. In 1991 it was restored and extended. As part of the Hull 2017 UK City of Culture project it underwent a 4.5 million pound refurbishment.The Ferens has a magnificent collection of paintings and sculptures, including works by European Old Masters, portraiture, marine painting, and modern and contemporary British art."
+		"topicInfo": "This building, the Ferens Art Gallery, was opened in 1927. In 1991 it was restored and extended. As part of the Hull 2017 UK City of Culture project it underwent a \u00a34.5 million refurbishment. The Ferens has a magnificent collection of paintings and sculptures, including works by European Old Masters, portraiture, marine painting, and modern and contemporary British art."
 	},
 	"ferens": {
 		"topicTitle": "Thomas R Ferens",
@@ -35,7 +35,7 @@ var textJSON = `{
 		],
 		"answers": [
 			"T R Ferens was an industrialist and a philanthropist. Born on the 4th of May, 1847 in East Thickley, he moved to Hull in 1868 to take up a post as shorthand clerk to James Reckitt of Reckitt and Sons.",
-			"During his time with Reckitt and Sons, Ferens rose through the ranks, becoming managing directory in 1889. In the 1890s the company expanded rapidly. One of it\'s popular products was a laundry blue, used to prevent white laundry from yellowing, and its success led to the local saying that \'Reckitt\'s Blue made Ferens\' gold\'.",
+			"During his time with Reckitt and Sons, Ferens rose through the ranks, becoming managing directory in 1889. In the 1890s the company expanded rapidly. One of its popular products was a laundry blue, used to prevent white laundry from yellowing, and its success led to the local saying that \'Reckitt\'s Blue made Ferens\' gold\'.",
 			"Ferens had a strong work ethic and rose to the top of Reckitt and Sons. His Wesleyan Methodist upbringing was one of the reasons he used the wealth he accumulated for the benefit of others. He loved art and believed it could change lives. As a result he bought art for the city and donated the money for this gallery."
 		],
 		"topicImageUrl": "images\/tr_ferens_600.jpg",
