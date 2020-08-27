@@ -24,8 +24,7 @@ function setTopicTitles(){
 function setQuestionsHeader(){
 	//console.log("Setting questions header for " + topic);
 	var header = document.getElementById("questionsHeader");
-	header.innerText = textObj[topic].header;
-	header.style.fontWeight = "bold";
+	header.innerText = textObj[topic].header;	
 };
 
 // Sets the text for the questions in the questions div
@@ -116,19 +115,16 @@ function setUpPageAfterTopicChange(){
 	setTopicText();
 	makeCurrentTopicBold();
 	setTopicImage();
-	question = 0; // There is now no question selected 
-	makeCurrentQuestionBold(); // This will change all the questions to not bold
+	question = 0; // There is now no question selected... 
+	makeCurrentQuestionGold(); // so this will change all the questions to white
 };
 
 function setUpPageAfterQuestionChange(){
 	setAnswerImage();
 	setAnswerText();
-	makeCurrentQuestionBold();
-	// Make the header not bold
-	var header = document.getElementById("questionsHeader");
-	header.style.fontWeight = "normal";
+	makeCurrentQuestionGold();	
 };
-// Formats the topic buttons. The selected topic is made bold, the others are normal.
+// Formats the topic buttons. The selected topic is made bold and gold, the others are normal.
 function makeCurrentTopicBold(){
 	var i;
 	for (i = 0; i < topics.length; i = i + 1){
@@ -143,16 +139,16 @@ function makeCurrentTopicBold(){
 		}
 	}
 };
-// Formats the questions. The selected question is made bold, the others are made normal.
-function makeCurrentQuestionBold(){
+// Formats the questions. The selected question is made gold, the others are made normal.
+function makeCurrentQuestionGold(){
 	for (var i = 0 ; i < questions.length; i = i + 1){
 		if(question == i + 1){
 			var currentQuestionText = document.getElementById("question" + question.toString());
-			currentQuestionText.style.fontWeight = "bold";
+			//currentQuestionText.style.fontWeight = "bold";
 			currentQuestionText.style.color = selectedColour;
 		} else {
 			var questionText = document.getElementById("question" + (i + 1).toString());
-			questionText.style.fontWeight = "normal";
+			//questionText.style.fontWeight = "normal";
 			questionText.style.color = unselectedColour;
 		}
 	}
