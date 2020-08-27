@@ -116,9 +116,9 @@ function setUpPageAfterTopicChange(){
 	makeCurrentTopicBold();
 	setTopicImage();
 	question = 0; // There is now no question selected... 
-	makeCurrentQuestionGold(); // so this will change all the questions to white
+	makeCurrentQuestionGold(); // ...so this will change all the questions to white.
 };
-
+// Sets up the page after a change of question
 function setUpPageAfterQuestionChange(){
 	setAnswerImage();
 	setAnswerText();
@@ -143,12 +143,10 @@ function makeCurrentTopicBold(){
 function makeCurrentQuestionGold(){
 	for (var i = 0 ; i < questions.length; i = i + 1){
 		if(question == i + 1){
-			var currentQuestionText = document.getElementById("question" + question.toString());
-			//currentQuestionText.style.fontWeight = "bold";
+			var currentQuestionText = document.getElementById("question" + question.toString());			
 			currentQuestionText.style.color = selectedColour;
 		} else {
-			var questionText = document.getElementById("question" + (i + 1).toString());
-			//questionText.style.fontWeight = "normal";
+			var questionText = document.getElementById("question" + (i + 1).toString());			
 			questionText.style.color = unselectedColour;
 		}
 	}
@@ -171,7 +169,7 @@ function onLoad()
 };
 
 function logScreenDimensions(){
-	screenWidth =  document.body.clientWidth; //window.innerWidth || document.documentElement.clientWidth
+	screenWidth =  document.body.clientWidth;
 	screenHeight = window.innerHeight|| document.documentElement.clientHeight|| document.body.clientHeight;
 	console.log("Screen is " + screenWidth.toString() + " x " + screenHeight.toString());
 }
