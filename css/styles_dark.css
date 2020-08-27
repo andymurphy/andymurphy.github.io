@@ -21,6 +21,12 @@ div {
 }
 
 /* -------- Topics  --------- */
+#topicsTapBelow{
+	padding-left: 4px;
+	font-size: 22px;
+	color: #b3b3cc;
+}
+
 .topics {
 	height: 20%;	 
 	padding-left: 16px;
@@ -61,19 +67,15 @@ div {
 	width: 50%;
 	height: 100%;	
 }
-#infoImage {
-	/*display: block;*/
+#infoImage {	
 	width: 100%;	
 	padding-top: 20px; 
 	padding-left: 24px;
 }
-#answer{
-	/*display: block;*/
+#answer{	
 	width: 100%;
 	padding-top: 8px;
 	padding-left: 24px;
 	font-size: 24px;
+	text-align: justify;
 }
-
-
-		
