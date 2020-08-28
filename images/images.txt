@@ -1,2 +1,0 @@
-600 in the image title means the image is 600 pixels wide.
-This is true for the landscape pictures.
