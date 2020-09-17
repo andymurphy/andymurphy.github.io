@@ -10,6 +10,10 @@ body {
 h1 {
 	font-size: 3em;
 }
+img {
+	border: 5px solid #555;
+}
+/* For the navigation bar */
 ul {	
 	padding: 5px 0px;	
 	list-style: none;
@@ -19,8 +23,7 @@ ul {
 li {
 	display: inline;
 }
-a {
-	
+a {	
 	color: gold;
 }
 /* Descendend Selector - only styles a within li */
@@ -32,10 +35,8 @@ li a {
 li a:hover {
 	color: #bbb;
 }
-
-a:visited {
-	color: darkgoldenrod;
-}
+/* Navbar classes */
 .active {
-	background-color: white;
+	background-color: #b3b3cc;
+	color: darkgoldenrod;
 }
