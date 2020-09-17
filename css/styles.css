@@ -10,15 +10,16 @@ body {
 h1 {
 	font-size: 3em;
 }
-img {
+img {	
 	border: 5px solid #555;
 }
+
 /* For the navigation bar */
 ul {	
 	padding: 5px 0px;	
 	list-style: none;
 	background-color: #333;
-	font-size: 2em;
+	font-size: 1.75em;
 }
 li {
 	display: inline;
@@ -26,7 +27,7 @@ li {
 a {	
 	color: gold;
 }
-/* Descendend Selector - only styles a within li */
+/* Descendend Selectors - only applies to an a contained within li */
 li a {	
 	text-decoration: none;
 	padding: 5px 25px;
@@ -35,7 +36,7 @@ li a {
 li a:hover {
 	color: #bbb;
 }
-/* Navbar classes */
+/* Navbar classes - shows the user which page he or she is on. */
 .active {
 	background-color: #b3b3cc;
 	color: darkgoldenrod;
