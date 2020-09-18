@@ -11,7 +11,8 @@ h1 {
 	font-size: 3em;
 }
 img {	
-	border: 5px solid #555;
+	border: 2px solid #555;
+	margin-right: 10px;
 }
 
 /* For the navigation bar */
