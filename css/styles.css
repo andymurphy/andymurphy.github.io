@@ -22,6 +22,11 @@ img {
 	margin-right: 10px;
 	margin-bottom: 20px;
 }
+#profile_picture {
+	border: none;
+	margin: 0px;	
+	float: right;
+}
 
 /* For the navigation bar */
 ul {	
