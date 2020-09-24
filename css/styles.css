@@ -22,6 +22,9 @@ img {
 	margin-right: 10px;
 	margin-bottom: 20px;
 }
+img.icon {
+	border :0px;
+}
 #profile_picture {
 	border: none;
 	margin: 0px;	
