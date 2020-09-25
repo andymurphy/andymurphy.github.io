@@ -25,6 +25,10 @@ img {
 img.icon {
 	border :0px;
 }
+img.illustration {
+	border: 0px;
+	float: left;
+}
 #profile_picture {
 	border: none;
 	margin: 0px;	
