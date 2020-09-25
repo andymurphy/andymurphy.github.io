@@ -32,15 +32,16 @@ img.icon {
 }
 
 /* For the navigation bar */
-ul {	
+ul.navbar {	
 	padding: 5px 0px;	
 	list-style: none;
 	background-color: #333;
 	font-size: 1.75em;
 }
-li {
+ul.navbar li {
 	display: inline;
 }
+
 a {	
 	color: gold;
 }
